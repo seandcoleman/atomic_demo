@@ -1,0 +1,26 @@
+@import '~scss_vars';
+
+.item.align-row {
+    flex-direction: row!important;
+}
+
+.awaitingApproval {
+  color: #ffc125;
+}
+
+.blocked {
+  color: #d7310c;
+}
+
+.inProgress {
+  color: #6495ed;
+}
+
+.approved {
+  color: #7fffd4;
+}
+
+.projectsList {
+  padding: 15px !important;
+  border-bottom: solid;
+}
